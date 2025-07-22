@@ -1,0 +1,45 @@
+nload Kali Linux ISO
+Go to the official site: https://www.kali.org/get-kali/
+
+Choose the version:
+
+Installer ISO (for full install on hard drive)
+
+Live ISO (to try without installing)
+
+VM image (for VirtualBox or VMware)
+
+ 2. Create Bootable Media or Use VirtualBox
+🔹 Option A: Bootable USB (for real installation)
+Download Rufus or Balena Etcher (for Windows).
+
+Insert a USB (at least 8 GB), open Rufus, and flash the Kali ISO.
+
+Restart PC → Enter BIOS/UEFI → Boot from USB.
+
+🔹 Option B: Use VirtualBox (for learning/testing)
+Install VirtualBox on Windows.
+
+Click New → Name it Kali → Type: Linux → Debian (64-bit).
+
+Allocate RAM (at least 2 GB) and create a virtual hard disk (20 GB+).
+
+Mount Kali ISO → Start VM → Kali installation begins.
+
+3. Install Kali Linux (Steps Inside Installer)
+Choose Graphical Install.
+
+Select Language, Region, and Keyboard Layout.
+
+Set Hostname (e.g., kali), and create a user and password.
+
+Partition disk (you can use "Guided – use entire disk" if you're unsure).
+
+Let it install the base system, bootloader, and finish setup.
+
+4. Done!
+Reboot the system or VM.
+
+Log in with your username and password.
+
+You now have Kali Linux installed!
